@@ -16,7 +16,7 @@ declare class StringDecoder {
     end(buffer?: Buffer): string;
 }
 
-declare class _Readable extends stream.Readable {
+declare class _Readable {
     // static ReadableState: _Readable.ReadableState;
     _readableState: _Readable.ReadableState;
     destroyed: boolean;
